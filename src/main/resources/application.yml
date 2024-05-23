@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cryptography
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_transactions
+    username: postgres
+    password: gustavo
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+jasypt:
+  password: 73
