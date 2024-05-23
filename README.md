@@ -1,23 +1,25 @@
 # Desafio Criptografia 🕵️
 
-#### Saiba mais sobre o desafio: [Criptografia](https://github.com/backend-br/desafios/blob/master/cryptography/PROBLEM.md)
+Desafio proposto pela comunidade [Back-End Brasil](https://github.com/backend-br).  
+Saiba mais: [Criptografia](https://github.com/backend-br/desafios/blob/master/cryptography/PROBLEM.md).
  
 
 ---
 
-#### Tecnologias utilizadas:
+#### ☕ Tecnologias utilizadas:
 
 - Java
 - Spring Boot
 - Spring Data JPA
 - PostgreSQL
 - Jasypt
+- Docker
 
 ---
 
-## Passo a passo
+## ⚙️ Passo a passo
 
-#### 1 - Instale o docker em sua máquina: [Docker](https://www.docker.com)
+#### 1 - Instale o [Docker](https://www.docker.com) em sua máquina. 
 
 #### 2 - Abra o terminal na pasta raiz do projeto e execute o seguinte comando:
 
@@ -26,7 +28,7 @@
 #### 3 - Crie o banco de dados necessário para a aplicação
 
 - PostgreSQL:  
-Crie um banco chamado: db_transactions
+Crie um banco com o nome: db_transactions
 
 #### 4 - Após terminar a configuração, inicie a aplicação e ela estará disponível em:
 
@@ -42,6 +44,8 @@ Crie um banco chamado: db_transactions
 
 --- 
 
+## 📨 Requisições
+
 | Método | Url                            | Descrição                       | Corpo da requisição     |
 | ------ | ------------------------------ | ------------------------------- | ----------------------- |
 | POST   | /v1/transactions               | Crie uma nova transação.        | [JSON](#criartransacao) |
@@ -51,6 +55,8 @@ Crie um banco chamado: db_transactions
 | DELETE | /v1/transactions/{id}          | Apague uma transação por id.    |                         |
 
 ---
+
+## 📄 Corpo das requisições
 
 ##### <a id="criartransacao">/v1/transactions - Criando uma nova transação.</a>
 
